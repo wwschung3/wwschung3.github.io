@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Apps</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 24px 16px;
+            background: #fafafa;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .app-card {
+            display: flex;
+            gap: 16px;
+            background: #fff;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+        .app-card:active {
+            transform: scale(0.98);
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            flex-shrink: 0;
+        }
+        .app-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .app-name {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .app-desc {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>More Apps</h1>
+
+    <a href="https://apps.apple.com/us/app/mj-db/id6759273739" class="app-card">
+        <img src="static/img/icons/mjdb.webp" class="app-icon" alt="MJ DB">
+        <div class="app-info">
+            <div class="app-name">MJ DB</div>
+            <div class="app-desc">Cantonese Mahjong tracker with real-time charts, visual stats, and instant local device sync.</div>
+        </div>
+    </a>
+
+    <a href="https://apps.apple.com/us/app/%E5%A4%A7dee-go/id6761645868" class="app-card">
+        <img src="static/img/icons/big2go.webp" class="app-icon" alt="Big2 Go">
+        <div class="app-info">
+            <div class="app-name">Big2 Go</div>
+            <div class="app-desc">Big Two Scorekeeper, Fun House Rule Variants</div>
+        </div>
+    </a>
+
+</body>
+</html>
